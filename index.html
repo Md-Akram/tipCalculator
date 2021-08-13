@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#"><img src="images/logo.svg" alt="logo" /></a>
+
+    <div class="card">
+      <div class="bill-input">
+        <div class="input-label">
+          <p>Bill</p>
+          <p class="hidden">Cannot be Empty</p>
+        </div>
+        <input type="number" name="bill" id="bill" />
+      </div>
+
+      <div class="tip-input">
+        <p>Select Tip %</p>
+
+        <button class="btn-1" id="btn-1" value="0.05" selected>5%</button>
+        <button class="btn-2" id="btn-2" value="0.10">10%</button>
+        <button class="btn-3" id="btn-3" value="0.15">15%</button>
+        <button class="btn-4" id="btn-4" value="0.25">25%</button>
+        <button class="btn-5" id="btn-5" value="0.50">50%</button>
+        <input type="number" name="custom" id="custom" placeholder="custom" />
+      </div>
+
+      <div class="people-input">
+        <div class="input-label">
+          <p>Number of People</p>
+          <p class="hidden">Cannot be Empty</p>
+        </div>
+        <input type="number" name="people" id="people" />
+      </div>
+
+      <div class="output">
+        <div class="tip-amount amount">
+          <p>Tip Amount <br /><small>/ person</small></p>
+          <h1 id="tip-amount">00.00</h1>
+        </div>
+        <div class="total-amount amount">
+          <p>total Amount <br /><small>/ person</small></p>
+          <h1 id="total-amount">00.00</h1>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/md-akram">AKRAM</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
