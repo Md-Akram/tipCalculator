@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShot of the App](https://md-akram.github.io/images/Screen Shot 2021-08-13 at 16.36.19.png)
-
+![ScreenShot of the App](https://github.com/Md-Akram/tipCalculator/blob/e5f17f6890cc675f51305b0e664b5a42ff5dbdc4/images/Screen%20Shot%202021-08-13%20at%2016.36.19.png
+)
 
 ### Links
 
