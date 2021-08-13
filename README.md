@@ -20,11 +20,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\Screen Shot 2021-08-13 at 16.36.19.png)
+![ScreenShot of the App](https://md-akram.github.io/images/Screen Shot 2021-08-13 at 16.36.19.png)
+
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://md-akram.github.io/tipCalculator)
+- Live Site URL: [Visit the App](https://md-akram.github.io/tipCalculator)
 
 ## My process
 
